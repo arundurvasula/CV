@@ -5,7 +5,11 @@
 \usepackage{etaremune}
 %\usepackage{eurofont}
 \usepackage{verbatim}
-
+\usepackage{multicol}										% columns env.
+	\setlength{\multicolsep}{0pt}
+\usepackage{graphicx}	
+\usepackage{paralist}										% compact lists
+\usepackage{tikz}
 % Comment the following lines to use the default Computer Modern font
 % instead of the Palatino font provided by the mathpazo package.
 % Remove the 'osf' bit if you don't like the old style figures.
@@ -155,28 +159,82 @@
 \item Teaching assistant: Ecological Genomics (Graduate), Winter 2015
 \end{itemize}
 
+%AWARDS
+\section*{Awards}
+\begin{itemize}
+\item Undergraduate Travel Award, UC Davis Plant Sciences, 2015
+\item Vienna Biocenter Summer Internship Scholarship, 2015
+\end{itemize}
+
 %POSTER/PRESENTATIONS
 \section*{Presentations and Posters}
 \begin{itemize}
+\item ANGSD-wrapper: scripts to streamline and visualize NGS population genetics analysis, Poster at Society for Molecular Biology and Evolution Conf, Vienna, Austria, 2015
 \item Description and detection of a novel Reovirus species in Cabernet grapevines in California, Poster at American Phytopathological Society, 2015.
 %\item Patterns of Demography and Selection Since Maize Domestication, Poster at Maize Genetics Conf, 2015
-\item ANGSD-wrapper: scripts to streamline and visualize NGS population genetics analysis, Poster at Bay Area Population Genetics Conf, 2014
 \end{itemize}
 
 %SKILLS
 \section*{Skills}
 \begin{itemize}
-\item Programming: R, Python, Bash, Awk, C, C++, Ruby, Java, Javascript, HTML, CSS
-\item Frameworks/Libraries: Scikit Learn, Scipy, Numpy, Matplotlib, 
-\item Bioinformatics: assembly, alignment, population genetics analysis
+\item Programming: 
+	\begin{multicols}{3}
+	\begin{compactitem}
+	\item R
+	\item Python
+	\item Bash
+	\item Awk
+	\item C
+	\item Java
+	\end{compactitem}
+	\end{multicols}
+\item Libraries:
+	\begin{multicols}{3}
+	\begin{compactitem}
+	\item ggplot2
+	\item dplyr
+	\item shiny
+	\item bioconductor
+	\item scikit-learn
+	\item scipy
+	\end{compactitem}
+	\end{multicols}
+\item Bioinformatics:
+	\begin{multicols}{3}
+	\begin{compactitem}
+	\item assembly
+	\item alignment
+	\item population genetics analysis
+	\item BLAST
+	\end{compactitem}
+	\end{multicols}
 %	\begin{itemize}
 %	\item Assembly: Velvet, IDBA\_UD, CLCBio
 %	\item Alignment: BWA, bowtie
 %	\item Other: samtools, bedtools, Bioconductor packages, SFS\_CODE, SLiM, ANGSD
 %	\end{itemize} 
-\item Tools: Git, Shiny, Matlab, SQL, Machine learning, IPython, LaTeX, Slurm, Sun Grid Engine
+\item Tools: 
+	\begin{multicols}{3}
+	\begin{compactitem}
+	\item unix
+	\item git
+	\item slurm
+	\item sun grid engine
+	\item databases: SQL and NoSQL
+	\item Amazon Web Services
+	\end{compactitem}
+	\end{multicols}
 %\item Hardware: Arduino, Raspberry Pi
-\item Molecular biology: PCR, Gel electrophoresis, RFLP, Bacterial transformation, Genomic DNA isolation
+\item Molecular biology: 
+	\begin{multicols}{3}
+	\begin{compactitem}
+	\item PCR
+	\item Gel electrophoresis
+	\item RFLP
+	\item Bacterial transformation
+	\item Genomic DNA isolation
+	\end{compactitem}
+	\end{multicols}
 \end{itemize}
 
 %COURSEWORK
